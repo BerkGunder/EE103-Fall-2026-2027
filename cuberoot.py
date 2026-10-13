@@ -1,3 +1,5 @@
 x = int(input('Enter a number: '))
-x = x**(1/3)
-print(x)
+if x < 0:
+    print(-(-x) ** (1/3))
+else:
+    print(x ** (1/3))
